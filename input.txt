@@ -1,0 +1,10 @@
+DynamicArray 1 2 3 4 5
+LinkedList 10 20 30 40
+
+MutableArraySequence 100 200 300
+MutableListSequence 400 500 600
+
+ImmutableArraySequence 1000 2000
+ImmutableListSequence 3000 4000
+
+SequenceFromSequence ListSequence ArraySequence 10 20 30

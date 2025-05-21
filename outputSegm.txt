@@ -1,0 +1,30 @@
+=== Starting SegmentedDeque tests ===
+
+Test 1: Push back 49 elements... size = 49 ✓
+Checking segment distribution...
+  Segment 0 [0-15]: 0..15
+  Segment 1 [16-31]: 16..31
+  Segment 2 [32-47]: 32..47
+  Segment 3 [48]: 48 ✓
+
+Test 2: Push front... new size = 50, first element = -1 ✓
+
+Test 3: Pop operations...
+  Popped front: -1
+  Popped back: 48
+  New size: 48 ✓
+
+Test 4: Functional operations...
+  Map (square): input=5, output=25
+  Where (even): count=24/48
+  Reduce (sum): 1128 (expected 1128) ✓
+
+Test 5: Concatenation...
+  Combined size: 50
+  Last elements: 100, 101 ✓
+
+Test 6: Sorting...
+  Before sort: 0 17 14 11 8 ... 15 12 9 6 3
+  After sort: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 ✓
+
+=== All SegmentedDeque tests passed successfully! ===

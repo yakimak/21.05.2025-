@@ -1,0 +1,26 @@
+Test 1: Basic operations
+Linear form: F(x) = 1 + 2*x1 + 3*x2
+Length: 3
+First coefficient: 1
+Last coefficient: 3
+
+Test 2: Math operations
+Sum: F(x) = 5 + 7*x1 + 9*x2
+Difference: F(x) = 3 + 3*x1 + 3*x2
+Multiplication: F(x) = 2 + 4*x1 + 6*x2
+
+Test 3: Evaluation
+Form: F(x) = 1.5 + 2*x1 + 3.5*x2
+Evaluate with vars [2.0, 3.0]: 16
+Evaluate with x=2.0: 19.5
+
+Test 4: Gradient and derivatives
+Form: F(x) = 1 + 2*x1 + 3*x2 + 4*x3
+Gradient: [2, 3, 4]
+Partial derivative by x1: 2
+Partial derivative by x2: 3
+
+Test 5: Edge cases
+Empty form length: 0
+Empty form string: F(x) = 0
+Exception caught: Form is empty
